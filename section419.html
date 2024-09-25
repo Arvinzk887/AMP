@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 1: Introduction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d4d4 3px solid;
+        }
+        header a, footer a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        header ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 30px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 30px;
+        }
+        h1, h2, h3, h4 {
+            color: #333;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+        }
+        .content p {
+            margin-bottom: 20px;
+        }
+		.center-text {
+    text-align: center;
+}
+
+.left-text {
+	text-align: left;
+}
+ table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+        /* Header styling */
+        th {
+            background-color: #333; /* Dark background color */
+            color: #fff; /* White text color */
+            padding: 10px;
+            text-align: left;
+        }
+        /* Cell styling */
+        td {
+            border: 1px solid #ddd; /* Light border */
+            padding: 10px; /* Padding inside cells */
+            vertical-align: top; /* Align content to the top */
+        }
+        /* Specific styling for the first cell */
+        td.statement {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <div class="container">
+            <h1>&nbsp;</h1>
+            <h1>All Market Trading Profits</h1>
+<nav>
+        <ul>
+                    <li><a href="section1.html">Introduction</a></li>
+                    <li><a href="section2.html">Chapter 1</a></li>
+                    <li><a href="section3.html">Chapter 2</a></li>
+                    <li><a href="section4.html">Chapter 3</a></li>
+					<li><a href="section5.html">Chapter 4</a></li>
+					<li><a href="section6.html">Chapter 5</a></li>
+					<li><a href="section7.html">Chapter 6</a></li>
+					<li><a href="section8.html">Chapter 7</a></li>
+					<li><a href="section9.html">Chapter 7.1</a></li>
+					<li><a href="section10.html">Chapter 7.2</a></li>
+					<li><a href="section11.html">Chapter 7.3</a></li>
+					<li><a href="section12.html">Chapter 7.4</a></li>
+					<li><a href="section13.html">Chapter 7.5</a></li>
+					<li><a href="section14.html">Chapter 7.6</a></li>
+					<li><a href="section15.html">Chapter 8</a></li>
+					<li><a href="section16.html">Chapter 9</a></li>
+					<li><a href="section17.html">Chapter 10</a></li>
+					<li><a href="section18.html">Conclusion</a></li>
+					<li><a href="section19.html">About The Author</a></li>
+      </ul>
+          </nav>
+      </div>
+</header>
+	<section id="chapter6" class="content">
+		<p>Controlling the Greeks for Bull Market Performance</p>
+<p>The way the structure does well in a bull market is by controlling
+	the following Greeks:</p>
+		<p><b>Delta:</b> If Delta is controlled, then the market’s movement upward
+			effect on P&amp;L can be better mitigated.</p>
+		<p><b>Gamma:</b> Gamma is a second-order Greek. If Gamma is flat (or
+neutral) with the structure, then the market’s movement-up
+effect on P&amp;L can be better mitigated. I think of Gamma as
+the curvature of the T plus 0 line in a risk graph.</p>
+		<p><b>Theta:</b> Now, the position also carries positive Theta, which
+creates profit over time as the position has sold depreciating
+assets. This creates what I call positive headroom. Positive
+headroom simply means that the T plus 0 Line is lower than the
+next T plus X Line coming up in time. With positive headroom,
+the position’s P&amp;L is expected to increase in value over time
+all else being equal.</p>
+		<p><b>Vega:</b> This positive Theta brings volatility risk to the trade,
+as Vega is negative. However, volatility does not typically
+			increase in an underlying that climbs higher in a bull market.</p>
+		<p><b>Charm:</b> If you’re an experienced options trader, you should
+be thinking that neutral Delta and neutral Gamma mean
+very little risk but also mean a lower chance for profit. This
+is where a second-order Greek, Charm, comes into play.
+The goal of a truly non-directional trade structure with more
+downside than upside risk is to have negative Charm, which
+means that, over time, a downside profit hump builds as the
+T plus 0 Line rises over time and eventually catches up to the
+underlying price in an up market.</p>
+		<p>Controlling the Greeks for Sideways Market Performance</p>
+<p>Next, I’ll get into the sideways market. A sideways market is
+characterized by the underlying asset trading within a relatively
+tight range, with occasional volatility spikes. This type
+of market is really like a bull market on steroids for the “Proactively
+	Hedged Long Put Broken Wing Butterfly.”</p>
+<p>All the reasons a truly non-directional option strategy makes
+money in a bull market are the same for a sideways market,
+except profits can happen much faster as the negative
+Charm builds the profit hump and has less room to travel for
+the structure to make money. The depreciation of the options sold brings a truly non-directional strategy to profit and
+	does so faster than in a bull market.</p>
+<p>The “Proactively Hedged Long Put Broken Wing Butterfly”
+structure excels in this environment by leveraging the following
+	Greek exposures:</p>
+		<p><b>Delta and Gamma:</b></p>
+<p>The structure maintains a Delta-neutral position, ensuring
+that small price fluctuations within the range have minimal
+impact on the overall P&amp;L. The flat Gamma exposure further
+reinforces the structure’s stability, as the Delta remains relatively
+unchanged, even as the underlying price moves within
+the range. This allows the trade to profit from time decay
+without being significantly affected by minor price movements.</p>
+		<p><b>Theta:</b></p>
+		<p>In a sideways market, the structure’s positive Theta exposure
+becomes even more advantageous. As time passes, the
+option positions in the structure decay in value, generating
+consistent profits for the trader. The longer the market
+remains range-bound, the more the trade benefits from
+			Theta decay.</p>
+		<p><b>Vega:</b></p>
+<p>Although the structure has a negative Vega exposure, the
+impact of volatility changes in a sideways market is typically
+less pronounced compared to other market conditions.
+The occasional volatility spikes may temporarily affect the
+trade’s P&amp;L, but the overall impact is mitigated by the structure’s
+	balanced design and the positive Theta exposure.</p>
+		<p><b>Charm:</b></p>
+<p>The negative Charm exposure plays a crucial role in a sideways
+market. As time progresses, the negative Charm causes
+the downside profit hump the ability to reach the current
+market price compared to a bull market. This means that
+the trade can achieve profitability faster, even with minimal
+movement in the underlying asset’s price. The structure’s
+design takes advantage of this negative Charm, allowing it
+	to generate profits more efficiently in a range-bound environment.</p>
+		<p>Controlling the Greeks for Grind-Down Market Performance</p>
+<p>Grind-down markets pose significant challenges for options
+sellers. A grind-down market is characterized by a slow, persistent
+decline in the underlying asset’s price, often accompanied
+by moderate volatility levels. A notable example is
+the fourth quarter of 2018 where volatility, as measured by
+the VIX, rose to 36 and the S&amp;P 500 declined by 20 percent. This
+	scenario also unfolded throughout 2022.</p>
+<p>In such markets, the underlying price often falls below the
+	3 percent to 7 percent buffer zone where Delta and Gamma are neutral.</p>
+<p>Another typical feature of market downturns is an increase
+in volatility.</p>
+		<p>A truly non-directional strategy copes with grind-down markets
+by adapting to the aftermath of the initial drop. After
+the initial volatility shock stabilizes, the Vega in the position
+begins to recuperate the P&amp;L as the negative Vega climbs
+back towards neutrality. Moreover, as the underlying price
+approaches the peak of the profit hump which builds to the
+			downside, the strategy benefits.</p>
+<p>It’s not only vital to keeping Delta under control but also to
+give the structure time to build a profit hump, which is crucial
+for protecting profits in a Grind-Down Market.</p>
+		<p>The “Proactively Hedged Long Put Broken Wing Butterfly”
+structure navigates this challenging environment by controlling
+			the following Greeks:</p>
+		<p><b>Delta and Gamma:</b></p>
+<p>As the market grinds down, the structure’s Delta exposure
+may shift slightly positively. However, the proactive hedging
+component and the careful strike selection help to maintain
+a relatively neutral Delta overall. The flat Gamma exposure
+ensures that the Delta remains stable, preventing the trade
+	from becoming overly directional as the price declines.</p>
+		<p><b>Theta and Vega:</b></p>
+<p>In a grind-down market, the positive Theta exposure continues
+to generate profits as time passes, offsetting some
+of the losses incurred from the increase in the underlying’s
+volatility. However, the negative Vega exposure becomes
+a more significant concern as volatility tends to increase
+during market declines. To manage this risk, the structure’s
+downside profit hump helps to mitigate the impact of rising
+	volatility on the trade’s P&amp;L.</p>
+		<p><b>Charm and Vomma:</b></p>
+<p>The negative Charm exposure accelerates the buildup of
+the downside profit hump, allowing the trade to achieve
+profitability more quickly as the market grinds down. This is
+particularly beneficial in a grind-down market, as it helps to
+offset the losses from the increase in the underlying volatility.
+Additionally, the careful management of Vomma, which
+measures the rate of change of Vega concerning volatility,
+helps to optimize the trade’s performance during periods of
+	elevated volatility.</p>
+		<p>Controlling the Greeks for Crash Market Performance</p>
+<p>The final market scenario to consider is the Crash Market,
+characterized by the underlying price dropping 3 percent to 7 percent beyond
+the flat Gamma point. The speed at which a crash occurs
+is a critical distinction between a grind-down market
+	and a crash.</p>
+<p>Notable examples of single-day crashes include August 24,
+2015, and February 5, 2018. March 2020 presented a different
+	situation with multiple consecutive crashes.</p>
+<p>Truly non-directional option structures manage crashes by
+initially drawing down with the market but then capitalizing
+on Vomma. As the underlying volatility rises significantly,
+Vomma influences P&amp;L above all other Greeks. I call this a
+	“Vega Flip.”</p>
+<p>Profit generation in crash scenarios hinges on Vomma, which
+denotes the exponential increase in Vega. This second-order
+Greek plays a critical role in the strategy’s effectiveness
+	during market crashes.</p>
+<p>The key is to have proactive hedges in place against market
+crashes.</p>
+		<p><b>Delta, Gamma, and Theta:</b> During a market crash, the structure’s
+Delta exposure may temporarily shift to a more positive
+value as the rapid price decline pushes the trade towards
+a more directional exposure. However, the proactive
+hedging component and the strategic strike placement help
+to mitigate the impact of this sudden shift in Delta. The Gamma
+exposure, while relatively flat, may experience temporary
+fluctuations due to the extreme price movement. The positive
+Theta exposure, although still present, becomes less
+			effective in generating profits during a sharp market decline.</p>
+		<p><b>Vega and Vomma:</b></p>
+		<p>This structure has negative Vega exposure and therefore,
+if the market draws down 3 to 7 percent, this structure will also draw
+down. However, when a market crash occurs, these hedges
+will begin to activate and this negative Vega will begin to
+flip. When volatility continues expanding, Vomma (the exponential
+part of Vega) will begin to kick in and a Vega Flip will
+occur. Then, because this structure is long volatility through
+the proactive hedges, the P&amp;L of the structure will get into
+the positive. Therefore, in Black Swan events, this trade
+		structure can do quite well because of these hedges.</p>
+		<p><b>Charm:</b></p>
+<p>In a crash market, the mature negative Charm profit hump
+provides a potential buffer against the initial rapid price decline
+and volatility increase of the underlying. The effectiveness
+of Charm in generating profits during a crash market
+may be limited due to the extreme nature of the volatility
+	expansion.</p>
+    </section>
+	<a href="index.html">Back to Main Page</a>
+</body>
+	<footer>
+        <p>All rights reserved. &copy; 2024 Karl Domm | <a href="http://www.real-pl.com">www.real-pl.com</a></p>
+</footer>
+</html>
